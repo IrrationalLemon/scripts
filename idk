@@ -1,0 +1,14 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ScriptForCircles : MonoBehaviour
+{
+    private void OnMouseUp()
+    {
+        float x = Random.Range(-7.43f, 7.46f);
+        float y = Random.Range(-3.67f, 3.65f);
+        transform.position = new Vector3(x, y);
+    }
+}
+// Сегодня узнала про метод OnMouseUp!!
